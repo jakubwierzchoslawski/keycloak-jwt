@@ -31,6 +31,15 @@ import com.nimbusds.jwt.proc.DefaultJWTProcessor;
 
 import jw.workshop.spring.jwt.model.api.IdentityProviderClient;
 
+/**
+ * This service is used to retrieve and validate KeyCloak JWT access tokens.
+ * 
+ * To simplify things nimbus-jose-jwt library is used for JWT processing
+ * 
+ * @author jakub
+ *
+ */
+
 @Service
 public class KeyCloakClientService implements IdentityProviderClient {
 

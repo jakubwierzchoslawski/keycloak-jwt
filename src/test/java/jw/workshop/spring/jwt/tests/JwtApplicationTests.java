@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import jw.workshop.spring.jwt.model.api.IdentityProvider;
+import jw.workshop.spring.jwt.model.api.IdentityProviderClient;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -17,7 +17,7 @@ public class JwtApplicationTests {
 
 	
 	@Autowired
-	private IdentityProvider keycloakService;
+	private IdentityProviderClient keycloakService;
 	
 	@Test
 	public void contextLoads() {
