@@ -2,7 +2,7 @@ package jw.workshop.spring.jwt.infrastructure.keycloak;
 
 import com.google.gson.annotations.SerializedName;
 
-import jw.workshop.spring.jwt.model.api.model.TokenResponse;
+import jw.workshop.spring.jwt.model.TokenResponse;
 import lombok.Data;
 
 @Data
