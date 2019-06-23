@@ -2,8 +2,6 @@ package jw.workshop.spring.jwt.infrastructure.keycloak;
 
 import com.google.gson.Gson;
 
-import jw.workshop.spring.jwt.model.KeycloakTokenResponse;
-
 public class TokenUtils {
 
 	private static Gson gson;

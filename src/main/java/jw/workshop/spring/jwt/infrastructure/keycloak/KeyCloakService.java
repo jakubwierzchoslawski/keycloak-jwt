@@ -29,7 +29,6 @@ import com.nimbusds.jwt.proc.BadJWTException;
 import com.nimbusds.jwt.proc.ConfigurableJWTProcessor;
 import com.nimbusds.jwt.proc.DefaultJWTProcessor;
 
-import jw.workshop.spring.jwt.model.KeycloakTokenResponse;
 import jw.workshop.spring.jwt.model.api.IdentityProvider;
 
 @Service

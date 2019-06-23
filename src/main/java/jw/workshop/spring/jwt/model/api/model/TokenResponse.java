@@ -1,4 +1,4 @@
-package jw.workshop.spring.jwt.model;
+package jw.workshop.spring.jwt.model.api.model;
 
 import com.google.gson.annotations.SerializedName;
 
