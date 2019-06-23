@@ -1,6 +1,6 @@
 package jw.workshop.spring.jwt.model.api;
 
-public interface IdentityProvider {
+public interface IdentityProviderClient {
 
 	/**
 	 * Get JWT token form identity provider based on provided configuration.

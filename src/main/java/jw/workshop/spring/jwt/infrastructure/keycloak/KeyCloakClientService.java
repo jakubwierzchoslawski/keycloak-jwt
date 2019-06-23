@@ -29,12 +29,12 @@ import com.nimbusds.jwt.proc.BadJWTException;
 import com.nimbusds.jwt.proc.ConfigurableJWTProcessor;
 import com.nimbusds.jwt.proc.DefaultJWTProcessor;
 
-import jw.workshop.spring.jwt.model.api.IdentityProvider;
+import jw.workshop.spring.jwt.model.api.IdentityProviderClient;
 
 @Service
-public class KeyCloakService implements IdentityProvider {
+public class KeyCloakClientService implements IdentityProviderClient {
 
-	Logger logger = LoggerFactory.getLogger(KeyCloakService.class);
+	Logger logger = LoggerFactory.getLogger(KeyCloakClientService.class);
 
 
 	@Autowired
